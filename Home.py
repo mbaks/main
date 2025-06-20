@@ -1,10 +1,10 @@
 # Home.py
-import streamlit as st
-import pandas as pd
+import streamlit as st # type: ignore
+import pandas as pd # type: ignore
 import calendar # Import for calendar operations
-import numpy as np # Import for numerical operations, especially with NaN
-import seaborn as sns # Import for heatmap visualization
-import matplotlib.pyplot as plt # Import for plotting
+import numpy as np # type: ignore # Import for numerical operations, especially with NaN
+import seaborn as sns # type: ignore # Import for heatmap visualization
+import matplotlib.pyplot as plt # type: ignore # Import for plotting
 
 # Set page configuration for a wider layout
 st.set_page_config(layout="wide")
